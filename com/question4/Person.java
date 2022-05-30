@@ -33,6 +33,28 @@ public class Person {
 	String name;
 	String gender;
 	Address add =new Address();
-    add.getCity();
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public Address getAdd() {
+		return add;
+	}
+	public void setAdd(String city, String state,String pin) {
+		Address add =new Address();
+		add.setCity(city);
+		add.setState(state);
+		add.setPinCode(pin);
+		
+	}
+    
 	
 }

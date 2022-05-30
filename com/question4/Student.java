@@ -26,10 +26,11 @@ public class Student extends Person {
 	public Student() {
 		super();
 	}
-	
 	@Override
 	public String toString() {
-		return "Student [studentId="+studentId+", courseFee="+courseFee+", courseEnrolled="+courseEnrolled+", address="+Address+
-				"[city="++", state="++", pincode="+60001"]]";
+		// TODO Auto-generated method stub
+		return super.toString();
 	}
+	
+	
 }
